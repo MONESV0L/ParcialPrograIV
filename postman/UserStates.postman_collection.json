@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "e8522ee8-b870-4b5f-a94a-1be8c72b9b8b",
+		"name": "UserStates",
+		"description": "Esta coleccion es para guardan los estados de los usuarios de la red social Mercurio.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "States",
+			"item": [
+				{
+					"name": "/states",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/states",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"states"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/states",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserName\": \"X\",\r\n    \"StateUser\": \"Bien\",\r\n    \"Description\": \":^)\",\r\n    \"imgUrl\": \"https://pbs.twimg.com/profile_images/1033405908288716800/B3WPCnB4_400x400.jpg\" \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/states",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"states"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": []
+		},
+		{
+			"name": "Auth",
+			"item": []
+		}
+	]
+}
