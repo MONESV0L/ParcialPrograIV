@@ -1,0 +1,10 @@
+
+entrar en las rutas de cada carpeta
+ejecutar el comando 
+npm install
+
+en cd api
+npm run start:dev
+
+en cd my-app
+npm run serve
